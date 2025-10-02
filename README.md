@@ -1,18 +1,18 @@
 # Task Manager App
 
 ## Description
-A Python app that lets users manage tasks with:  
-- Add new tasks  
-- Edit existing tasks  
-- Mark tasks as completed  
+A Python app that lets users manage tasks with:
+- Add new tasks
+- Edit existing tasks
+- Mark tasks as completed
 
-Tasks are saved persistently in a JSON file so they remain after the program exits.
+Tasks are stored persistently in a JSON file so they remain available even after the program exits.
 
 ---
 
 ## Technologies
-- Python  
-- JSON  
+- Python
+- JSON (for storage)
 
 ---
 
