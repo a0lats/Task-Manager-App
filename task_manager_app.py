@@ -1,6 +1,6 @@
 # Author: Adeoluwa (Ade) Olateru-Olagbegi
 # Project: Task Manager App
-# Date: 08/05/2025
+# Date: 07/25/2025
 # Description: Lightweight Python app that manages tasks with add, edit, 
 # and completion features. Stores data in JSON for persistence.
 
@@ -40,9 +40,9 @@ def view_tasks():
     return load_tasks()
 
 
-# -------------------------
-# Test Calls
-# -------------------------
+# Test
+open(TASK_FILE, "w").write("[]")  # resets tasks file for fresh run
+
 add_task("Finish resume update")
 add_task("Study for CS exam")
 print("Tasks after adding:", view_tasks())
